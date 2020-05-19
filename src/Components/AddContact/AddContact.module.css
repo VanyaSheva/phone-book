@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.formLabel {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.input {
+  margin-bottom: 20px;
+  width: 200px;
+}
+.input:focus {
+  border-color: cornflowerblue;
+}
+.button {
+  width: 200px;
+  border: none;
+  margin-bottom: 50px;
+  align-self: center;
+  transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.button:hover {
+  background-color: chartreuse;
+}

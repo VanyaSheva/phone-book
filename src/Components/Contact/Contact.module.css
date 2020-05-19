@@ -1,0 +1,13 @@
+.name,
+.phone,
+.button {
+  margin-right: 10px;
+}
+.button {
+  height: 20px;
+  border: none;
+  transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.button:hover {
+  background-color: crimson;
+}
